@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbgcolor{
+    background: rgb(23, 2, 48);
+}
+
+.navbar-nav a:hover{
+    background:#0ef ;
+    border-radius: 18px;
+    animation: slideTop is ease forwards;
+    animation-delay:2s ;
+    box-shadow: 0 0 2px #0ef, 0 0 5px #0ef;
+}
+
+/*.styleread{
+    display: inline-block;
+    padding: 8px 18px;
+    color:#081b29;
+    background: #0ef;
+    border-radius: 12px;
+    text-decoration: none;
+    animation: slideTop is ease forwards;
+    animation-delay:2s ;
+    box-shadow: 0 0 2px #0ef, 0 0 5px #0ef;
+
+    
+}*/
+.main-section{
+    background-color: white;
+    /*background-color: rgb(198, 214, 213);*/
+    height: 100vh;
+    background-size: cover;
+}
+
+.image-size {
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.auto-typing-text{
+    font-family: "Roboto";
+    font-size: 29px;
+    color:rgb(31, 12, 238);
+    font-weight:bold;
+
+    
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold
+}
+.button-style{
+    color: white;
+    background-color: #4b6cc1;
+    border-radius: 11px;
+    border-width: 0px;
+    height: 50px;
+    width: 120px;
+}
+
+.logoicons{
+    border-radius:92px;
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left:12px;
+    padding-right: 2px;
+    padding-bottom: 14px;
+    background-color:transparent;
+    margin-right: 3px;
+    color: #d0b200;
+    font-size: 35px;
+
+}
+.about-section{
+    background-color: white;
+    /*background-color: rgb(198, 214, 213);*/
+    height: 100vh;
+    background-size: cover;
+
+}
+.about-style{
+    font-size: 40px;
+    font-family: "";
+    font-weight: bold;
+
+}
+.about-style:hover{
+    text-decoration: underline;
+}
+.description{
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.skill-style{
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+.skill-style:hover{
+    text-decoration: underline;
+    
+    
+}
+
+.skill-span-style{
+    color:blue;
+    font-style: italic;
+}
+
+
+.skill-background {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+    width: 120px;
+}
+.skill-image-style {
+    height: 64px;
+    width: 64px;
+}
+.skill-card-text {
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.exper-desc{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.exper-desc-1{
+    font-family: "Roboto";
+    font-size: 19px;
+    color:rgb(255, 89, 0)
+    
+}
+
+.list-style{
+    list-style-type:circle;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+.project-desc{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.sub-heading-projects {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 10px;
+
+}
+
+.project-title-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.service-bg-container{
+    
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+}
+
+.services-image-size{
+    height: 60px;
+    width:60px;
+    padding: 5px;
+
+}
+
+.services-heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services-description{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+
+.contact-container{
+    background-color: #001c32;
+}
+
+.footer-headings{
+    color:#cced00;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.contact-heading {
+    color:white;
+    font-family: "Roboto";
+    font-size:40px;
+
+}
+
+.contact-logo-style{
+    color:green;
+    font-size: 20px;
+    padding:5px;
+    
+
+}
+.contact-number-style{
+    color:white;
+    font-family: "Roboto";
+    font-size:15px
+}
+
+.resumebtn{
+    font-family: "Roboto";
+    font-size: 18px;
+    border-radius: 80px;
+    background-color: blue;
+    color: white;
+   
+}
